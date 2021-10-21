@@ -1,0 +1,223 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+        ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting. How can I help you",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hey there, Welcome to our Store!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Can you tell more on that?",
+        "I would like to known the items you sell"
+      ],
+      "responses": [
+        "We sell coffee, tea, notebooks, and many more",
+        "We have coffee and tea, notebooks and much more"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Estimate delivery days"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Depending on the availability, your items will be shipped in 2-4 business days"
+      ]
+    },
+    {
+      "tag": "Feedback",
+      "patterns": [
+        "Ratings",
+        "Your services were very helpful",
+        "Very nice products",
+        "Nice services",
+        "amazing reviews",
+        "I am amazed with your service!",
+        "good service",
+        "nice service",
+        "your service is great!"
+      ],
+      "responses": [
+        "Thank you for your feedback",
+        "Appretiate it for your kind words",
+        "Thank you for commenting",
+        "We appretiate your interest",
+        "Thank you we respect your thoughts!"
+      ]
+    },
+    {
+      "tag": "notebooks",
+      "patterns": [
+        "What types of notebook do you have?",
+        "What will be notebook types",
+        "Do you sell notebook in bulks?",
+        "are the notebook sold in bulk or single?",
+        "I would like to enquire about the notebooks",
+        "hey can you ellaborate more on notebooks?"
+      ],
+      "responses": [
+        "We sell notebook in A4, A5, and many more sizes, individual and bulk also",
+        "Yes, we sell notebooks in bulk also",
+        "we sell all kinds of notebook ruled, unruled, dotted, etc.",
+        "hey there the notebooks of all size and shape are available!"
+      ]
+    },
+    {
+      "tag": "coffee",
+      "patterns": [
+        "What types of coffee do you sell?",
+        "Various coffee do you have?",
+        "Types of coffee you sell"
+      ],
+      "responses": [
+        "We sell cappuccino, expresso, and many more types",
+        "We have 20 different types of coffee available in our shop",
+        "You can get a varity of coffee from our shop --- https://www.amazon.in/Coffee-Tea-Beverages/b?ie=UTF8&node=4859478031",
+        "You can check coffee here --- https://www.amazon.in/Coffee-Tea-Beverages/b?ie=UTF8&node=4859478031"
+      ]
+    },
+    {
+      "tag": "tea",
+      "patterns": [
+        "What types of tea do you sell?",
+        "Various tea do you have?",
+        "Types of tea you sell"
+      ],
+      "responses": [
+        "We sell green tea, black tea, and many more types",
+        "We have 20 different types of tea available in our shop",
+        "You can get a varity of tea from our shop"
+      ]
+    },
+    {
+      "tag": "ruled books",
+      "patterns": [
+        "Can I know more about ruled books?",
+        "Hey can you show us some ruled books?",
+        "I am intrested in buying ruled books!",
+        "Hey, I need to buy some ruled books",
+        "Can I buy some ruled books?"
+      ],
+      "responses": [
+        "Yes sure, check this out --> https://www.amazon.in/AmazonBasics-Classic-Notebook-Ruled-130mm/dp/B01DN8TCEU",
+        "Wow, that's great check this --> https://www.amazon.in/AmazonBasics-Classic-Notebook-Ruled-130mm/dp/B01DN8TCEU",
+        "https://www.amazon.in/AmazonBasics-Classic-Notebook-Ruled-130mm/dp/B01DN8TCEU",
+        "checkout the books here --> https://www.amazon.in/AmazonBasics-Classic-Notebook-Ruled-130mm/dp/B01DN8TCEU"
+      ]
+    },
+    {
+      "tag": "unruled books",
+      "patterns": [
+        "Can I know more about unruled books?",
+        "Hey can you show us some unruled books?",
+        "I am intrested in buying unruled books!",
+        "Hey, I need to buy some unruled books",
+        "Can I buy some unruled books?"
+      ],
+      "responses": [
+        "Yes sure, check this out --> https://www.amazon.in/Classmate-Pulse-Spiral-Notebook-Unruled/dp/B00P93X0VO",
+        "Wow, that's great check this --> https://www.amazon.in/Classmate-Pulse-Spiral-Notebook-Unruled/dp/B00P93X0VO",
+        "https://www.amazon.in/Classmate-Pulse-Spiral-Notebook-Unruled/dp/B00P93X0VO",
+        "checkout the books here --> https://www.amazon.in/Classmate-Pulse-Spiral-Notebook-Unruled/dp/B00P93X0VO"
+      ]
+    },
+    {
+      "tag": "green tea",
+      "patterns": [
+        "Can I know more about green tea?",
+        "I am interested in buying green tea!",
+        "I want green tea",
+        "I am thinking to buy green tea!"
+      ],
+      "responses": [
+        "Wow what a great choice, refer our page --> https://www.amazon.in/Green-Tea/b?ie=UTF8&node=4861892031",
+        "That's an healthy option! --> https://www.amazon.in/Green-Tea/b?ie=UTF8&node=4861892031",
+        "You are at right destination --> https://www.amazon.in/Green-Tea/b?ie=UTF8&node=4861892031",
+        "Checkout green tea here --> https://www.amazon.in/Green-Tea/b?ie=UTF8&node=4861892031"
+
+      ]
+    },
+    {
+      "tag": "black tea",
+      "patterns": [
+        "Can I know more about black tea?",
+        "I am interested in buying black tea!",
+        "I want black tea",
+        "I am thinking to buy black tea!"
+      ],
+      "responses": [
+        "Wow what a great choice, refer our page --> https://www.amazon.in/Black-Tea/b?ie=UTF8&node=4861889031",
+        "That's an healthy option! -->https://www.amazon.in/Black-Tea/b?ie=UTF8&node=4861889031",
+        "You are at right destination --> https://www.amazon.in/Black-Tea/b?ie=UTF8&node=4861889031",
+        "Checkout green tea here --> https://www.amazon.in/Black-Tea/b?ie=UTF8&node=4861889031"
+
+      ]
+    }
+
+    
+
+
+    
+  ]
+}
